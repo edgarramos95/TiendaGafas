@@ -1,0 +1,29 @@
+commit f134f7543a5e69d6237478bb890e395e0ff122c9
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Fri Jul 21 00:01:10 2017 -0600
+
+    Vista de iniciar seccion lista
+
+commit 47ebef098b34a3e80509c4f45ee3155a079abf6b
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Thu Jul 20 22:07:10 2017 -0600
+
+    Agregacion de imagenes y modificacion en el diseño
+
+commit dcff8eeccb27db0825a974160a3cc5816c9d2252
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Thu Jul 20 19:52:11 2017 -0600
+
+    Funcionamento de master
+
+commit 1d9b197917d447334003ab2e8235cb53481b1990
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Thu Jul 20 18:55:42 2017 -0600
+
+    Modificacion de vistas master e inicio
+
+commit 0d2ee1a6ec16e3315153516cfbe74c0a378112a0
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Wed Jul 19 22:05:06 2017 -0600
+
+    Creacion del proyecto
