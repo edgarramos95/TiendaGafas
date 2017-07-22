@@ -7,13 +7,28 @@
     	      <h4 class="title">REGISTRO</h4>
     		   <form>
     			 <div class="col_1_of_2 span_1_of_2">
-		   			 <div><input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}"></div>
-		    			<div><input type="text" value="Apellidos" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Apellidos';}"></div>
-		    			<div><input type="text" value="Correo Electrónico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo Electrónico';}"></div>
-		    			<div><input type="text" value="Contraseña" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contraseña';}"></div>
+					<div class="form-group">
+						<label for="nombre">Nombre:</label>
+						<input type="text" class="form-control" name="nombre" required>
+					</div>
+					<div class="form-group">
+						<label for="apellidos">Apellidos:</label>
+						<input type="text" class="form-control" name="apellidos" required>
+					</div>
+					<div class="form-group">
+						<label for="correo_electronico">Correo:</label>
+						<input type="text" class="form-control" name="correo_electronico" required>
+					</div>
+					<div class="form-group">
+						<label for="contraseña">Contraseña:</label>
+						<input type="text" class="form-control" name="contraseña" required>
+					</div>
 		    	 </div>
-		    	  <div class="col_1_of_2 span_1_of_2">	
-		    		<div><input type="text" value="Domicilio" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Domicilio';}"></div>
+		    	  <div class="col_1_of_2 span_1_of_2">
+					<div class="form-group">
+						<label for="domicilio">Domicilio:</label>
+						<input type="text" class="form-control" name="domicilio" required>
+					</div>
 		    		<div><select id="Pais" name="Pais" onchange="change_country(this.value)" class="frm-field required">
 		            <option value="null">Selecciona el estado</option>         
 		            <option value="AG">Aguascalientes</option>
@@ -49,9 +64,11 @@
 		            <option value="VE">Veracruz</option>
 		            <option value="YU">Yucatán</option>
 		            <option value="ZA">Zacatecas</option>
-		         </select></div>		        
-		          <div><input type="text" value="Ciudad" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ciudad';}"></div>
-		           <div>
+		         </select></div>
+					<div class="form-group">
+						<label for="ciudad">Ciudad:</label>
+						<input type="text" class="form-control" name="ciudad" required>
+					</div>
 		          </div>
 		          	<input type="text" value="" maxlength="3" class="code"> - <input type="text" value="" maxlength="10" class="number">
 		          		<p class="code">Codigo del pais + Numero de telefono</p>
