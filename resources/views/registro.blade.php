@@ -23,14 +23,21 @@
 						<label for="contraseña">Contraseña:</label>
 						<input type="text" class="form-control" name="contraseña" required>
 					</div>
+					<br>
+					 <div class="form-group">
+		    			<button class="grey" >Registrar</button>
+		 			 </div>
+
 		    	 </div>
 		    	  <div class="col_1_of_2 span_1_of_2">
 					<div class="form-group">
 						<label for="domicilio">Domicilio:</label>
 						<input type="text" class="form-control" name="domicilio" required>
 					</div>
-		    		<div><select id="Pais" name="Pais" onchange="change_country(this.value)" class="frm-field required">
-		            <option value="null">Selecciona el estado</option>         
+		    		<div>
+		    		<label for="estado">Estado:</label>
+		    		<select id="estado" name="estado" onchange="change_country(this.value)" class="frm-field required">
+		    		<option value="null">Selecciona una opción</option>         
 		            <option value="AG">Aguascalientes</option>
 		            <option value="BC">Baja California</option>
 		            <option value="BS">Baja California Sur</option>
@@ -69,12 +76,15 @@
 						<label for="ciudad">Ciudad:</label>
 						<input type="text" class="form-control" name="ciudad" required>
 					</div>
+		          
+		          	<div class="form-group">
+			          	<label for="telefono">Numero de Telefono:</label>
+			          	<br>
+			          	<input type="text" value="" maxlength="10" class="number">		          		
+		          	</div>
 		          </div>
-		          	<input type="text" value="" maxlength="3" class="code"> - <input type="text" value="" maxlength="10" class="number">
-		          		<p class="code">Codigo del pais + Numero de telefono</p>
 		          </div>
-		      <button class="grey">Registrar</button>
-		  
+
 		    <div class="clear"></div>
 		    </form>
     	</div>
