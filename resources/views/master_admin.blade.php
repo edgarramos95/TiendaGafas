@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="icon" href="images/logoico.ico">
-	<title>Lunnetes</title>
+	<title>Lunetes</title>
 	<link rel="stylesheet" href="{{asset("css/bootstrap.css")}}"">
 	<script src="{{asset("js/jquery-3.2.1.js")}}"></script>
 </head>
@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{url('/')}}">Lunnetes</a>
+      <a class="navbar-brand" href="{{url('/')}}">Lunetes</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -26,10 +26,10 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Registrar <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
 
-            <li><a href="{{url('/registrarEncargado')}}">Registrar Encargados</a></li>
-            <li><a href="{{url('/registrarProyecto')}}">Registrar Proyectos</a></li>            
-            <li><a href="{{url('/registrarPuesto')}}">Registrar Puestos</a></li>
-            <li><a href="{{url('/registrarRecurso')}}">Registrar Recursos</a></li>
+            <li><a href="{{url('/registrarEncargado')}}">Registrar Cliente</a></li>
+            <li><a href="{{url('/registrarProyecto')}}">Registrar Categoria</a></li>            
+            <li><a href="{{url('/registrarPuesto')}}">Registrar Articulo</a></li>
+            <li><a href="{{url('/registrarRecurso')}}">Registrar Imagen</a></li>
             
           </ul>
         </li>
@@ -38,10 +38,10 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Consultar <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
 
-            <li><a href="{{url('/consultarEncargados')}}">Consultar Encargados</a></li>
-            <li><a href="{{url('/consultarProyectos')}}">Consultar Proyectos</a></li>
-            <li><a href="{{url('/consultarPuestos')}}">Consultar Puestos</a></li>
-            <li><a href="{{url('/consultarRecursos')}}">Consultar Recursos</a></li>
+            <li><a href="{{url('/consultarEncargados')}}">Consultar Cliente</a></li>
+            <li><a href="{{url('/consultarProyectos')}}">Consultar Categoria</a></li>
+            <li><a href="{{url('/consultarPuestos')}}">Consultar Articulo</a></li>
+            <li><a href="{{url('/consultarRecursos')}}">Consultar Imagen</a></li>
           
           </ul>
         </li>
@@ -61,7 +61,7 @@
 
 <footer class="text-center">
 	<hr>
-	Lunnettes©2017
+	Lunettes©2017
 </footer>
 <script src="{{asset("js/bootstrap.js")}}"></script>
 </body>

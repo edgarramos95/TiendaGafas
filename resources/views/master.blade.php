@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <link rel="icon" href="images/logoico.ico">
-<title>Lunnetes</title>
+<title>Lunetes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -271,7 +271,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="footer-bottom">
 			<div class="wrap">
 	             <div class="copy">
-			        <p>Lunnettes©2017<a href="http://w3layouts.com" target="_blank"></a></p>
+			        <p>Lunettes©2017<a href="http://w3layouts.com" target="_blank"></a></p>
 		         </div>
 				<div class="f-list2">
 				 <ul>
