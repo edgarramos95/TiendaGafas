@@ -3,23 +3,21 @@
 
 @section('contenido')
 <!--@include('flash::message')-->
-<h1>Lista de clientes TAP </h1>
+<h1>Lista de clientes Lunnetes</h1>
 <table class="table table-hover">
 	<thead>
 		<tr>
 			<th>ID</th>
 			<th>Nombres</th>
 			<th>Apellidos</th>
-			<th>Ocupación</th>
-			<th>Edad</th>
-			<th>Hijos</th>
-			<th>Sexo</th>
-			<th>Correo</th>
-			<th>Teléfono </th>
-			<th>Domicilio </th>
-			<th>Localidad </th>
+			<th>Correo Electrónico</th>
+			<th>Contraseña</th>
+			<th>Domicilio</th>
+			<th>Estado</th>
+			<th>Ciudad</th>
+			<th>Teléfono</th>
 			<th>
-				<a href="{{url('/clientesPDF')}}">PDF</a>
+				<a href="{{url('/')}}">PDF</a>
 			</th>
 		</tr>
 	</thead>
