@@ -12,8 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('registro');
-});
-Route::get('/in', function () {
-    return view('iniciar_seccion');
+    return view('admin');
 });
