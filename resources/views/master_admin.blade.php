@@ -26,10 +26,17 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Registrar <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
 
+<<<<<<< HEAD
             <li><a href="{{url('/registrarCliente')}}">Registrar Cliente</a></li>
             <li><a href="{{url('/registrarProyecto')}}">Registrar Categoria</a></li>            
             <li><a href="{{url('/registrarPuesto')}}">Registrar Articulo</a></li>
             <li><a href="{{url('/registrarRecurso')}}">Registrar Imagen</a></li>
+=======
+            <li><a href="{{url('/registrarClientes')}}">Registrar Cliente</a></li>
+            <li><a href="{{url('/registrarCategorias')}}">Registrar Categoria</a></li>            
+            <li><a href="{{url('/registrarArticulo')}}">Registrar Articulo</a></li>
+            <li><a href="{{url('/registrarImagen')}}">Registrar Imagen</a></li>
+>>>>>>> e22b586e76fda57d7f8c717266e3432029d15dc7
             
           </ul>
         </li>
@@ -38,10 +45,10 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Consultar <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
 
-            <li><a href="{{url('/consultarEncargados')}}">Consultar Cliente</a></li>
-            <li><a href="{{url('/consultarProyectos')}}">Consultar Categoria</a></li>
-            <li><a href="{{url('/consultarPuestos')}}">Consultar Articulo</a></li>
-            <li><a href="{{url('/consultarRecursos')}}">Consultar Imagen</a></li>
+            <li><a href="{{url('/consultarClientes')}}">Consultar Cliente</a></li>
+            <li><a href="{{url('/consultarCategorias')}}">Consultar Categoria</a></li>
+            <li><a href="{{url('/consultarArticulos')}}">Consultar Articulo</a></li>
+            <li><a href="{{url('/consultarImagen')}}">Consultar Imagen</a></li>
           
           </ul>
         </li>
