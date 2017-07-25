@@ -8,19 +8,19 @@
            <div class="col_1_of_2 span_1_of_2">
           <div class="form-group">
             <label for="nombre">Nombre:</label>
-            <input type="text" class="form-control" name="nombre" required>
+            <input type="text" class="form-control" name="nombre" maxlength="50" required>
           </div>
           <div class="form-group">
             <label for="apellidos">Apellidos:</label>
-            <input type="text" class="form-control" name="apellidos" required>
+            <input type="text" class="form-control" name="apellidos" maxlength="50" required>
           </div>
           <div class="form-group">
             <label for="correo_electronico">Correo:</label>
-            <input type="text" class="form-control" name="correo_electronico" required>
+            <input type="text" class="form-control" name="correo_electronico" maxlength="50" required>
           </div>
           <div class="form-group">
             <label for="contraseña">Contraseña:</label>
-            <input type="text" class="form-control" name="contraseña" required>
+            <input type="text" class="form-control" name="contraseña" maxlength="8" required>
           </div>
           <br>
            <div class="form-group">
@@ -31,7 +31,7 @@
             <div class="col_1_of_2 span_1_of_2">
           <div class="form-group">
             <label for="domicilio">Domicilio:</label>
-            <input type="text" class="form-control" name="domicilio" required>
+            <input type="text" class="form-control" name="domicilio" maxlength="500" required>
           </div>
             <div>
             <label for="estado">Estado:</label>
@@ -73,7 +73,7 @@
              </select></div>
           <div class="form-group">
             <label for="ciudad">Ciudad:</label>
-            <input type="text" class="form-control" name="ciudad" required>
+            <input type="text" class="form-control" name="ciudad" maxlength="50" required>
           </div>
               
                 <div class="form-group">
