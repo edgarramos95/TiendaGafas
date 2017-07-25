@@ -39,6 +39,22 @@ class proyectoController extends Controller
     }
 
 
+    public function guardarCli(Request $datos)
+    {
+    	$cliente=new Cliente();
+		$cliente->nombres=$datos->input('nombres');
+		$cliente->apellidos=$datos->input('apellidos');
+		$cliente->correo_electronico=$datos->input('correo_electronico');
+		$cliente->contraseña=$datos->input('contraseña');
+		$cliente->domicilio=$datos->input('domicilio');
+		$cliente->estado=$datos->input('estado');
+		$cliente->ciudad=$datos->input('ciudad');
+		$cliente->telefono=$datos->input('telefono'); 
+		$cliente->save();
+
+		return redirect('/consultarClientes');   	
+    }
+
     public function guardarCat(Request $datos)
     {
     	$categoria=new Categoria();
