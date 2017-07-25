@@ -28,4 +28,6 @@ Route::get('/registroArticulo','proyectoController@registroArt');
 Route::post('/guardarCategoria','proyectoController@guardarCat');
 
 
+Route::get('/consultarClientes','proyectoController@consultarCli');
+
 Route::get('/consultarCategorias','proyectoController@consultarCat');

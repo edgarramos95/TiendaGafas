@@ -49,6 +49,14 @@ class proyectoController extends Controller
     }
 
 
+
+    public function consultarCli()
+    {
+    	$clientes=Cliente::all();
+
+    	return view('consultarClientes', compact('clientes'));
+    }
+
     public function consultarCat()
     {
     	$categorias=Categoria::all();

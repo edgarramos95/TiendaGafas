@@ -30,7 +30,7 @@
             <li><a href="{{url('/registroAdministrador')}}">Registrar Administrador</a></li>            
             <li><a href="{{url('/registroCategoria')}}">Registrar Categoria</a></li>
             <li><a href="{{url('/registroArticulo')}}">Registrar Articulo</a></li>
-            <li><a href="{{url('/registrarRecurso')}}">Registrar Imagen</a></li>            
+            <li><a href="{{url('/admin')}}">Registrar Imagen</a></li>            
           </ul>
         </li>
 
@@ -38,11 +38,11 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Consultar <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
 
-            <li><a href="{{url('/consultarEncargados')}}">Consultar Cliente</a></li>
-            <li><a href="{{url('/consultarEncargados')}}">Consultar Administrador</a></li>
+            <li><a href="{{url('/consultarClientes')}}">Consultar Cliente</a></li>
+            <li><a href="{{url('/admin')}}">Consultar Administrador</a></li>
             <li><a href="{{url('/consultarCategorias')}}">Consultar Categoria</a></li>
-            <li><a href="{{url('/consultarPuestos')}}">Consultar Articulo</a></li>
-            <li><a href="{{url('/consultarRecursos')}}">Consultar Imagen</a></li>
+            <li><a href="{{url('/admin')}}">Consultar Articulo</a></li>
+            <li><a href="{{url('/admin')}}">Consultar Imagen</a></li>
           
           </ul>
         </li>
