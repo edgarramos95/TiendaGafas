@@ -9,10 +9,10 @@ use App\Http\Controllers\Controller;
 
 class proyectoController extends Controller
 {
-    public function registrarCli()
+    public function registroCli()
     {
     	$clientes=Cliente::all();
 
-    	return view('registrarCliente');
+    	return view('registroCliente');
     }
 }

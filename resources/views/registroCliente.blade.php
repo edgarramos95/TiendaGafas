@@ -1,93 +1,85 @@
-@extends('master')
+@extends('master_admin')
 
 @section('contenido')
+<form action="{{url('/guardarEncargado')}}" method="POST">
+<input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
 
-          <div class="register_account">
-          	<div class="wrap">
-    	      <h4 class="title">REGISTRO</h4>
-    		   <form>
-    			 <div class="col_1_of_2 span_1_of_2">
-					<div class="form-group">
-						<label for="nombre">Nombre:</label>
-						<input type="text" class="form-control" name="nombre" required>
-					</div>
-					<div class="form-group">
-						<label for="apellidos">Apellidos:</label>
-						<input type="text" class="form-control" name="apellidos" required>
-					</div>
-					<div class="form-group">
-						<label for="correo_electronico">Correo:</label>
-						<input type="text" class="form-control" name="correo_electronico" required>
-					</div>
-					<div class="form-group">
-						<label for="contraseña">Contraseña:</label>
-						<input type="text" class="form-control" name="contraseña" required>
-					</div>
-					<br>
-					 <div class="form-group">
-		    			<button class="grey" >Registrar</button>
-		 			 </div>
+	<h2>Registrar Cliente</h2>
+	<hr>
 
-		    	 </div>
-		    	  <div class="col_1_of_2 span_1_of_2">
-					<div class="form-group">
-						<label for="domicilio">Domicilio:</label>
-						<input type="text" class="form-control" name="domicilio" required>
-					</div>
-		    		<div>
-		    		<label for="estado">Estado:</label>
-		    		<select id="estado" name="estado" onchange="change_country(this.value)" class="frm-field required">
-		    		<option value="null">Selecciona una opción</option>         
-		            <option value="AG">Aguascalientes</option>
-		            <option value="BC">Baja California</option>
-		            <option value="BS">Baja California Sur</option>
-		            <option value="CA">Campeche</option>
-		            <option value="CS">Chiapas</option>
-		            <option value="CH">Chihuahua</option>
-		            <option value="CM">Ciudad de México</option>
-		            <option value="CO">Coahuila</option>
-		            <option value="CL">Colima</option>
-		            <option value="DU">Durango</option>
-		            <option value="DF">Distrito Federal</option>
-		            <option value="EM">Estado de México</option>
-		            <option value="GU">Guanajuato</option>
-		            <option value="GO">Guerrero</option>
-		            <option value="HI">Hidalgo</option>
-		            <option value="JA">Jalisco</option>
-		            <option value="MI">Michoacán</option>
-		            <option value="MO">Morelos</option>
-		            <option value="NA">Nayarit</option>
-		            <option value="NL">Nuevo León</option>
-		            <option value="OA">Oaxaca</option>
-		            <option value="PU">Puebla</option>
-		            <option value="QU">Querétaro</option>
-		            <option value="QR">Quintana Roo</option>
-		            <option value="SL">San Luis Potosí</option>
-		            <option value="SI">Sinaloa</option>
-		            <option value="SO">Sonora</option>
-		            <option value="TA">Tabasco</option>
-		            <option value="TS">Tamaulipas</option>
-		            <option value="TL">Tlaxcala</option>
-		            <option value="VE">Veracruz</option>
-		            <option value="YU">Yucatán</option>
-		            <option value="ZA">Zacatecas</option>
-		         </select></div>
-					<div class="form-group">
-						<label for="ciudad">Ciudad:</label>
-						<input type="text" class="form-control" name="ciudad" required>
-					</div>
+	<div class="form-group">
+		<label for="nombre">Nombres:</label>
+		<input type="text" class="form-control" name="nombre" required>
+	</div>
+	<div class="form-group">
+		<label for="apellidos">Apellidos:</label>
+		<input type="text" class="form-control" name="apellidos" required>
+	</div>
+	<div class="form-group">
+		<label for="correo">Correo electrónico:</label>
+		<input type="text" class="form-control" name="correo" required>
+	</div>
+	<div class="form-group">
+		<label for="contraseña">Contraseña:</label>
+		<input type="text" class="form-control" name="contraseña" required>
+	</div>
+	<div class="form-group">
+		<label for="domicilio">Domicilio:</label>
+		<input type="text" class="form-control" name="domicilio" required>
+	</div>
+	<div class="form-group">
+		<label for="estado">Estado:</label>
+		<select name="estado" onchange="change_country(this.value)" class="form-control">
+			<option value="null">Selecciona una opción</option>         
+		    <option value="AG">Aguascalientes</option>
+		    <option value="BC">Baja California</option>
+		    <option value="BS">Baja California Sur</option>
+		    <option value="CA">Campeche</option>
+		    <option value="CS">Chiapas</option>
+		    <option value="CH">Chihuahua</option>
+		    <option value="CM">Ciudad de México</option>
+		    <option value="CO">Coahuila</option>
+		    <option value="CL">Colima</option>
+		    <option value="DU">Durango</option>
+		    <option value="DF">Distrito Federal</option>
+		    <option value="EM">Estado de México</option>
+		    <option value="GU">Guanajuato</option>
+		    <option value="GO">Guerrero</option>
+	        <option value="HI">Hidalgo</option>
+		    <option value="JA">Jalisco</option>
+		    <option value="MI">Michoacán</option>
+		    <option value="MO">Morelos</option>
+		    <option value="NA">Nayarit</option>
+		    <option value="NL">Nuevo León</option>
+		    <option value="OA">Oaxaca</option>
+		    <option value="PU">Puebla</option>
+		    <option value="QU">Querétaro</option>
+		    <option value="QR">Quintana Roo</option>
+		    <option value="SL">San Luis Potosí</option>
+		    <option value="SI">Sinaloa</option>
+		    <option value="SO">Sonora</option>
+			<option value="TA">Tabasco</option>
+		    <option value="TS">Tamaulipas</option>
+		    <option value="TL">Tlaxcala</option>
+		    <option value="VE">Veracruz</option>
+		    <option value="YU">Yucatán</option>
+		    <option value="ZA">Zacatecas</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="ciudad">Ciudad:</label>
+		<input type="text" class="form-control" name="ciudad" required>
+	</div>
+	<div class="form-group">
+		<label for="telefono">Numero de Telefono:</label>
+		
+		<input type="text" class="form-control" name="domicilio" maxlength="10" required>
+	</div>
 		          
-		          	<div class="form-group">
-			          	<label for="telefono">Numero de Telefono:</label>
-			          	<br>
-			          	<input type="text" value="" maxlength="10" class="number">		          		
-		          	</div>
-		          </div>
-		          </div>
+		<button type="submit" class="btn btn-primary">Registrar</button>
+		<a href="{{url('/')}}" class="btn btn-danger">Cancelar</a>
+	
+</form>
+<div class="clear"></div>
 
-		    <div class="clear"></div>
-		    </form>
-    	</div>
-    </div>
-
-   @stop
+@stop

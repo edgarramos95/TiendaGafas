@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('admin');
 });
 
-Route::get('/registrarCliente','proyectoController@registrarCli');
+Route::get('/registroCliente','proyectoController@registroCli');
