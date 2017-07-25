@@ -1,7 +1,7 @@
 @extends('master_admin')
 
 @section('contenido')
-<form action="{{url('/guardarEncargado')}}" method="POST">
+<form action="{{url('/guardarAdministrador')}}" method="POST">
 <input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
 
 	<h2>Registrar Administrador</h2>
@@ -73,7 +73,7 @@
 	<div class="form-group">
 		<label for="telefono">Numero de Telefono:</label>
 		
-		<input type="text" class="form-control" name="domicilio" maxlength="10" required>
+		<input type="text" class="form-control" name="telefono" maxlength="10" required>
 	</div>
 		          
 		<button type="submit" class="btn btn-primary">Registrar</button>

@@ -54,7 +54,21 @@ class proyectoController extends Controller
 
 		return redirect('/consultarClientes');   	
     }
+	public function guardarAdmin(Request $datos)
+    {
+    	$administrador=new Administrador();
+		$administrador->nombres=$datos->input('nombres');
+		$administrador->apellidos=$datos->input('apellidos');
+		$administrador->correo_electronico=$datos->input('correo_electronico');
+		$administrador->contraseña=$datos->input('contraseña');
+		$administrador->domicilio=$datos->input('domicilio');
+		$administrador->estado=$datos->input('estado');
+		$administrador->ciudad=$datos->input('ciudad');
+		$administrador->telefono=$datos->input('telefono'); 
+		$administrador->save();
 
+		return redirect('/consultarAdministradores');   	
+    }
     public function guardarCat(Request $datos)
     {
     	$categoria=new Categoria();
