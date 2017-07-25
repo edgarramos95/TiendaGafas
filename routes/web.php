@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('master');
+=======
+    return view('consultarAdministradores');
+>>>>>>> origin/master
 });
