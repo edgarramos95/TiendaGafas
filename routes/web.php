@@ -24,3 +24,6 @@ Route::get('/registroAdministrador','proyectoController@registroAdmin');
 Route::get('/registroCategoria','proyectoController@registroCat');
 Route::get('/registroArticulo','proyectoController@registroArt');
 //Route::get('/registroImagen','proyectoController@registroIma');
+
+Route::post('/guardarCategoria','proyectoController@guardarCat');
+

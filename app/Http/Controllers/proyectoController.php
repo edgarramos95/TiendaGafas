@@ -38,4 +38,14 @@ class proyectoController extends Controller
     	return view('registroArticulo',compact('categorias'));	
     }
 
+
+    public function guardarCat(Request $datos)
+    {
+    	$categoria=new Categoria();
+    	$categoria->descripcion=$datos->input('descripcion');
+    	$categoria->save();
+
+    	return redirect('/admin');
+    }
+
 }
