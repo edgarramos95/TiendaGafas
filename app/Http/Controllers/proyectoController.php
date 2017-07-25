@@ -45,7 +45,15 @@ class proyectoController extends Controller
     	$categoria->descripcion=$datos->input('descripcion');
     	$categoria->save();
 
-    	return redirect('/admin');
+    	return redirect('/consultarCategorias');
+    }
+
+
+    public function consultarCat()
+    {
+    	$categorias=Categoria::all();
+
+    	return view('consultarCategorias', compact('categorias'));
     }
 
 }

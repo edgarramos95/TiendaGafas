@@ -27,3 +27,5 @@ Route::get('/registroArticulo','proyectoController@registroArt');
 
 Route::post('/guardarCategoria','proyectoController@guardarCat');
 
+
+Route::get('/consultarCategorias','proyectoController@consultarCat');
