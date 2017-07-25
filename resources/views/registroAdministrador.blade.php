@@ -8,16 +8,16 @@
 	<hr>
 
 	<div class="form-group">
-		<label for="nombre">Nombres:</label>
-		<input type="text" class="form-control" name="nombre" maxlength="50" required>
+		<label for="nombres">Nombres:</label>
+		<input type="text" class="form-control" name="nombres" maxlength="50" required>
 	</div>
 	<div class="form-group">
 		<label for="apellidos">Apellidos:</label>
 		<input type="text" class="form-control" name="apellidos" maxlength="50" required>
 	</div>
 	<div class="form-group">
-		<label for="correo">Correo electrónico:</label>
-		<input type="text" class="form-control" name="correo" maxlength="50" required>
+		<label for="correo_electronico">Correo electrónico:</label>
+		<input type="text" class="form-control" name="correo_electronico" maxlength="50" required>
 	</div>
 	<div class="form-group">
 		<label for="contraseña">Contraseña:</label>

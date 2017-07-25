@@ -35,7 +35,7 @@
           </div>
             <div>
             <label for="estado">Estado:</label>
-            <select id="estado" name="estado" onchange="change_country(this.value)" class="frm-field required">
+            <select name="estado" onchange="change_country(this.value)" class="frm-field required">
             <option value="null">Selecciona una opción</option>         
                 <option value="null">Selecciona una opción</option>         
         <option value="Aguascalientes">Aguascalientes</option>
