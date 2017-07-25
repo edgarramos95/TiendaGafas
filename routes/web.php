@@ -29,5 +29,5 @@ Route::post('/guardarCategoria','proyectoController@guardarCat');
 
 
 Route::get('/consultarClientes','proyectoController@consultarCli');
-
+Route::get('/consultarAdministradores','proyectoController@consultarAdmin');
 Route::get('/consultarCategorias','proyectoController@consultarCat');

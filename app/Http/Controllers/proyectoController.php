@@ -56,7 +56,12 @@ class proyectoController extends Controller
 
     	return view('consultarClientes', compact('clientes'));
     }
+    public function consultarAdmin()
+    {
+    	$administradores=Administrador::all();
 
+    	return view('consultarAdministradores',compact('administradores'));
+    }
     public function consultarCat()
     {
     	$categorias=Categoria::all();

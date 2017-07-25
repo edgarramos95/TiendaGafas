@@ -18,7 +18,27 @@
 			</tr>
 	</thead>
 	<tbody>
-		
+		@foreach($administradores as $a)
+		<tr>
+			<td>{{$a->id}}</td>
+			<td>{{$a->nombres}}</td>
+			<td>{{$a->apellidos}}</td>
+			<td>{{$a->correo_electronico}}</td>
+			<td>{{$a->contraseña}}</td>
+			<td>{{$a->domicilio}}</td>
+			<td>{{$a->estado}}</td>
+			<td>{{$a->ciudad}}</td>
+			<td>{{$a->telefono}}</td>
+			<td>
+				<a href="{{url('/editarEncargado')}}/{{$a->id}}" class="btn btn-xs btn-primary">
+					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+				</a>
+				<a href="{{url('/eliminarEncargado')}}/{{$a->id}}" class="btn btn-xs btn-danger">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				</a>
+			</td>
+		</tr>
+		@endforeach
 	</tbody>
 </table>
 @stop
