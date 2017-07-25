@@ -20,3 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/registroCliente','proyectoController@registroCli');
+Route::get('/registroAdministrador','proyectoController@registroAdmin');
+Route::get('/registroCategoria','proyectoController@registroCat');
+Route::get('/registroArticulo','proyectoController@registroArt');
+//Route::get('/registroImagen','proyectoController@registroIma');

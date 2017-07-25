@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="icon" href="images/logoico.ico">
-	<title>Lunetes</title>
+	<title>Lunettes</title>
 	<link rel="stylesheet" href="{{asset("css/bootstrap.css")}}"">
 	<script src="{{asset("js/jquery-3.2.1.js")}}"></script>
 </head>
@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{url('/')}}">Lunetes</a>
+      <a class="navbar-brand" href="{{url('/admin')}}">Lunettes</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -27,8 +27,9 @@
           <ul class="dropdown-menu" role="menu">
 
             <li><a href="{{url('/registroCliente')}}">Registrar Cliente</a></li>
-            <li><a href="{{url('/registrarProyecto')}}">Registrar Categoria</a></li>            
-            <li><a href="{{url('/registrarPuesto')}}">Registrar Articulo</a></li>
+            <li><a href="{{url('/registroAdministrador')}}">Registrar Administrador</a></li>            
+            <li><a href="{{url('/registroCategoria')}}">Registrar Categoria</a></li>
+            <li><a href="{{url('/registroArticulo')}}">Registrar Articulo</a></li>
             <li><a href="{{url('/registrarRecurso')}}">Registrar Imagen</a></li>
             
           </ul>
