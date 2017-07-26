@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li class="active grid"><a href="{{url('/inicio')}}">Inicio</a></li>
 					<li><a class="color4" href="{{url('/gafasMujeres')}}">Mujeres</a></li>				
 					<li><a class="color5" href="{{url('/gafasHombres')}}">Hombres</a></li>
-					<li><a class="color5" href="{{url('/admin')}}">Administradores</a></li>
+					<li><a class="color5" href="{{url('/login')}}">Administradores</a></li>
 				</ul>
 			</div>
 		</div>

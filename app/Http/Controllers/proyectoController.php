@@ -251,6 +251,11 @@ class proyectoController extends Controller
     {
         return view('/admin');
     }
+    public function login()
+    {
+        return view('/login');
+    }
+
 
     public function guardarClientes(Request $datos)
     {
