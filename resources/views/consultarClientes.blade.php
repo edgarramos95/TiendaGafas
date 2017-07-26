@@ -30,10 +30,10 @@
 			<td>{{$c->ciudad}}</td>
 			<td>{{$c->telefono}}</td>
 			<td>
-				<a href="{{url('/editarEncargado')}}/{{$c->id}}" class="btn btn-xs btn-primary">
+				<a href="{{url('/editarCliente')}}/{{$c->id}}" class="btn btn-xs btn-primary">
 					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 				</a>
-				<a href="{{url('/eliminarEncargado')}}/{{$c->id}}" class="btn btn-xs btn-danger">
+				<a href="{{url('/eliminarCliente')}}/{{$c->id}}" class="btn btn-xs btn-danger">
 					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 				</a>
 			</td>

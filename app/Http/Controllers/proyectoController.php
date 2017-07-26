@@ -118,4 +118,12 @@ class proyectoController extends Controller
         return view('consultarArticulos', compact('articulo'));
     }
 
+    public function eliminarCli($id)
+    {
+        $cliente=Cliente::find($id);
+        $cliente->delete();
+
+        return redirect('/consultarClientes');
+    }
+
 }
