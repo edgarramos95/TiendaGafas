@@ -28,6 +28,7 @@ Route::get('/registroArticulo','proyectoController@registroArt');
 Route::post('/guardarCliente','proyectoController@guardarCli');
 Route::post('/guardarAdministrador','proyectoController@guardarAdmin');
 Route::post('/guardarCategoria','proyectoController@guardarCat');
+Route::post('/guardarArticulo','proyectoController@guardarArt');
 
 
 Route::get('/consultarClientes','proyectoController@consultarCli');
