@@ -213,4 +213,14 @@ class proyectoController extends Controller
         $categoria->save();
         return redirect('/consultarCategorias');
     }
+    public function actualizarArt($id, Request $datos)
+    {
+        $articulo = Articulo::find($id);
+        $articulo->precio=$datos->input('precio');
+        $articulo->descripcion=$datos->input('descripcion');
+        $articulo->costo=$datos->input('costo');
+        $articulo->id_categoria=$datos->input('categoria');
+        $articulo->save();
+        return redirect('/consultarArticulos');
+    }
 }
