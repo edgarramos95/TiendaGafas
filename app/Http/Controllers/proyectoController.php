@@ -243,4 +243,8 @@ class proyectoController extends Controller
     {
         return view('/iniciar_seccion');
     }
+    public function revisarCompras()
+    {
+        return view('/revisarCompras');
+    }
 }
