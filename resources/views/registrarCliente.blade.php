@@ -7,40 +7,31 @@
           <div class="register_account">
             <div class="wrap">
             <h4 class="title">REGISTRO DE CLIENTES</h4>
-           <form>
-           <div class="col_1_of_2 span_1_of_2">
-          <div class="form-group">
-            <label for="nombres">Nombre:</label>
-            <input type="text" class="form-control" name="nombres" maxlength="50" required>
-          </div>
-          <div class="form-group">
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" class="form-control" name="apellidos" maxlength="50" required>
-          </div>
-          <div class="form-group">
-            <label for="correo_electronico">Correo electrónico:</label>
-            <input type="text" class="form-control" name="correo_electronico" maxlength="50" required>
-          </div>
-          <div class="form-group">
-            <label for="contraseña">Contraseña:</label>
-            <input type="text" class="form-control" name="contraseña" maxlength="8" required>
-          </div>
-          <br>
-           <div class="form-group">
-              <button class="grey" >Registrar</button>
-           </div>
-
-           </div>
-            <div class="col_1_of_2 span_1_of_2">
-          <div class="form-group">
-            <label for="domicilio">Domicilio:</label>
-            <input type="text" class="form-control" name="domicilio" maxlength="500" required>
-          </div>
-            <div>
-            <label for="estado">Estado:</label>
-            <select name="estado" onchange="change_country(this.value)" class="frm-field required">
-            <option value="null">Selecciona una opción</option>         
-                <option value="null">Selecciona una opción</option>         
+           
+  <div class="form-group">
+    <label for="nombres">Nombres:</label>
+    <input type="text" class="form-control" name="nombres" maxlength="50" required>
+  </div>
+  <div class="form-group">
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" class="form-control" name="apellidos" maxlength="50" required>
+  </div>
+  <div class="form-group">
+    <label for="correo_electronico">Correo electrónico:</label>
+    <input type="text" class="form-control" name="correo_electronico" maxlength="50" required>
+  </div>
+  <div class="form-group">
+    <label for="contraseña">Contraseña:</label>
+    <input type="text" class="form-control" name="contraseña" maxlength="8" required>
+  </div>
+  <div class="form-group">
+    <label for="domicilio">Domicilio:</label>
+    <input type="text" class="form-control" name="domicilio" maxlength="500" required>
+  </div>
+  <div class="form-group">
+    <label for="estado">Estado:</label>
+    <select name="estado" onchange="change_country(this.value)" class="form-control">
+      <option value="null">Selecciona una opción</option>         
         <option value="Aguascalientes">Aguascalientes</option>
         <option value="Baja California">Baja California</option>
         <option value="Baja California Sur">Baja California Sur</option>
@@ -74,23 +65,23 @@
         <option value="Veracruz">Veracruz</option>
         <option value="Yucatán">Yucatán</option>
         <option value="Zacatecas">Zacatecas</option>
-             </select></div>
-          <div class="form-group">
-            <label for="ciudad">Ciudad:</label>
-            <input type="text" class="form-control" name="ciudad" maxlength="50" required>
-          </div>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="ciudad">Ciudad:</label>
+    <input type="text" class="form-control" name="ciudad" maxlength="50" required>
+  </div>
+  <div class="form-group">
+    <label for="telefono">Numero de Telefono:</label>
+    
+    <input type="text" class="form-control" name="telefono" maxlength="10" required>
+  </div>
               
-                <div class="form-group">
-                  <label for="telefono">Numero de Telefono:</label>
-                  <br>
-                  <input type="text" value="" name="telefono" maxlength="10" class="number">                  
-                </div>
-              </div>
-              </div>
-
-        <div class="clear"></div>
-        </form>
-      </div>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+    <a href="{{url('/')}}" class="btn btn-danger">Cancelar</a>
+  
     </div>
-
+    </div>
+    </form>
+    
 @stop
