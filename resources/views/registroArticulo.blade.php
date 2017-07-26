@@ -1,7 +1,7 @@
 @extends('master_admin')
 
 @section('contenido')
-<form action="{{url('/guardarEncargado')}}" method="POST">
+<form action="{{url('/guardarArticulo')}}" method="POST">
 <input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
 
 	<h2>Registrar Articulo</h2>
