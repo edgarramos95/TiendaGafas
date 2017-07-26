@@ -36,4 +36,5 @@ Route::get('/consultarAdministradores','proyectoController@consultarAdmin');
 Route::get('/consultarCategorias','proyectoController@consultarCat');
 Route::get('/consultarArticulos','proyectoController@consultarArt');
 
-Route::get('/eliminarCliente/{id}', 'proyectoController@eliminarCli');
+Route::get('/eliminarCliente/{id}','proyectoController@eliminarCli');
+Route::get('/eliminarAdministrador/{id}','proyectoController@eliminarAdmin');
