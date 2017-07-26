@@ -41,4 +41,5 @@ Route::get('/eliminarAdministrador/{id}','proyectoController@eliminarAdmin');
 Route::get('/eliminarCategoria/{id}','proyectoController@eliminarCat');
 Route::get('/eliminarArticulo/{id}','proyectoController@eliminarArt');
 
-Route::get('/editarCliente/{id}', 'proyectoController@editarCli');
+Route::get('/editarCliente/{id}','proyectoController@editarCli');
+Route::get('/editarAdministrador/{id}','proyectoController@editarAdmin');
