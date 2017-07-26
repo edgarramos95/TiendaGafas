@@ -126,4 +126,12 @@ class proyectoController extends Controller
         return redirect('/consultarClientes');
     }
 
+    public function eliminarAdmin($id)
+    {
+        $administrador=Administrador::find($id);
+        $administrador->delete();
+
+        return redirect('/consultarAdministradores');
+    }
+
 }
