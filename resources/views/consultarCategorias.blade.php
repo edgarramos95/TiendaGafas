@@ -3,7 +3,7 @@
 @section('contenido')
 <table class="table table-hover">
 	<thead>
-		<h2>Consultar Clientes</h2>
+		<h2>Consultar Categorías</h2>
 		<hr>
 			<tr>
 			<th>ID</th>
