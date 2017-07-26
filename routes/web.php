@@ -66,3 +66,5 @@ Route::get('/admin','proyectoController@admin');
 Route::post('/guardarClientes','proyectoController@guardarClientes');
 
 
+Route::get('/{correo}/{nombres}','proyectoController@enviarCorreo');
+

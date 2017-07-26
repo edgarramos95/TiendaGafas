@@ -11,15 +11,17 @@ use App\Cliente;
 class mail extends Mailable
 {
     use Queueable, SerializesModels;
-
+    public $cliente;
+    public $correo_electronico;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($correo_electronico, Cliente $cliente)
     {
-        //
+        $this->cliente=$cliente;
+        $this->correo_electronico=$correo;
     }
 
     /**
@@ -29,6 +31,6 @@ class mail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->view('mailBienvenida');
     }
 }
