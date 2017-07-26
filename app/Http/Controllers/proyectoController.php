@@ -142,4 +142,11 @@ class proyectoController extends Controller
         return redirect('/consultarCategorias');
     }
 
+    public function eliminarArt($id)
+    {
+        $articulo=Articulo::find($id);
+        $articulo->delete();
+
+        return redirect('/consultarArticulos');
+    }
 }
