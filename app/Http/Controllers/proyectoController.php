@@ -149,4 +149,10 @@ class proyectoController extends Controller
 
         return redirect('/consultarArticulos');
     }
+    public function editarCli($id)
+    {
+        $cliente=Cliente::find($id);
+
+        return view('editarCliente',compact('cliente'));
+    }
 }
