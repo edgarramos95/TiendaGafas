@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master_admin')
 
 @section('contenido')
 <form action="{{url('/actualizarCliente')}}/{{$cliente->id}}" method="POST">
