@@ -48,3 +48,4 @@ Route::get('/editarArticulo{id}','proyectoController@editarArt');
 
 Route::post('/actualizarCliente/{id}','proyectoController@actualizarCli');
 Route::post('/actualizarAdministrador/{id}','proyectoController@actualizarAdmin');
+Route::post('/actualizarCategoria/{id}','proyectoController@actualizarCat');
