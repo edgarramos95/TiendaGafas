@@ -206,4 +206,11 @@ class proyectoController extends Controller
         $administrador->save();
         return redirect('/consultarAdministradores');
     }
+    public function actualizarCat($id, Request $datos)
+    {
+        $categoria = Categoria::find($id);
+        $categoria->descripcion=$datos->input('descripcion');
+        $categoria->save();
+        return redirect('/consultarCategorias');
+    }
 }
