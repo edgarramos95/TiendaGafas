@@ -178,4 +178,18 @@ class proyectoController extends Controller
 
         return view('editarArticulo',compact('articulo','categoria'));
     }
+    public function actualizarCli($id, Request $datos)
+    {
+        $cliente = Cliente::find($id);
+        $cliente->nombres=$datos->input('nombres');
+        $cliente->apellidos=$datos->input('apellidos');
+        $cliente->correo_electronico=$datos->input('correo_electronico');
+        $cliente->contraseña=$datos->input('contraseña');
+        $cliente->domicilio=$datos->input('domicilio');
+        $cliente->estado=$datos->input('estado');
+        $cliente->ciudad=$datos->input('ciudad');
+        $cliente->telefono=$datos->input('telefono'); 
+        $cliente->save();
+        return redirect('/consultarClientes');
+    }
 }
