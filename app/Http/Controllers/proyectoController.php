@@ -84,7 +84,7 @@ class proyectoController extends Controller
         $articulo->precio=$datos->input('precio');
         $articulo->descripcion=$datos->input('descripcion');
         $articulo->costo=$datos->input('costo');
-        $articulo->categoria=$datos->input('categoria');
+        $articulo->id_categoria=$datos->input('categoria');
         $articulo->save();
 
         return redirect('/consultarArticulos');
@@ -107,6 +107,15 @@ class proyectoController extends Controller
     	$categorias=Categoria::all();
 
     	return view('consultarCategorias', compact('categorias'));
+    }
+    public function consultarArt()
+    {
+        $articulos=DB::table('articulo')
+            ->join('categoria', 'articulos.id_categoria', '=', 'categoria.id')
+            ->select('articulo.*','categoria.descripcion')
+            ->get();
+
+        return view('consultarArticulos', compact('articulo'));
     }
 
 }
