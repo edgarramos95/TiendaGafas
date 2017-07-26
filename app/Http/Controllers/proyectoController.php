@@ -161,4 +161,10 @@ class proyectoController extends Controller
 
         return view('editarAdministrador',compact('administrador'));
     }
+    public function editarCat($id)
+    {
+        $categoria=Categoria::find($id);
+
+        return view('editarCategoria',compact('categoria'));
+    }
 }
