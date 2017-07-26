@@ -155,4 +155,10 @@ class proyectoController extends Controller
 
         return view('editarCliente',compact('cliente'));
     }
+    public function editarAdmin($id)
+    {
+        $administrador=Administrador::find($id);
+
+        return view('editarAdministrador',compact('administrador'));
+    }
 }
