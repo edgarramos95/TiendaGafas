@@ -231,4 +231,8 @@ class proyectoController extends Controller
     {
         return view('/gafasHombres');
     }
+    public function inicio()
+    {
+        return view('/inicio');
+    }
 }
