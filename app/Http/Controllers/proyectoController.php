@@ -134,4 +134,12 @@ class proyectoController extends Controller
         return redirect('/consultarAdministradores');
     }
 
+    public function eliminarCat($id)
+    {
+        $categoria=Categoria::find($id);
+        $categoria->delete();
+
+        return redirect('/consultarCategorias');
+    }
+
 }
