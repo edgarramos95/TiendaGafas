@@ -16,7 +16,7 @@ Route::get('/admin', function () {
 });
 
 Route::get('/', function () {
-    return view('master');
+    return view('inicio');
 });
 
 Route::get('/registroCliente','proyectoController@registroCli');

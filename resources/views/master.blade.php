@@ -64,15 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div id="response"> </div>
 		 </div>
 	  <div class="tag-list">
-	    <ul class="icon1 sub-icon1 profile_img">
-			<li><a class="active-icon c1" href="#"> </a>
-				<ul class="sub-icon1 list">
-					<li><h3>sed diam nonummy</h3><a href=""></a></li>
-					<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="">adipiscing elit, sed diam</a></p></li>
-				</ul>
-			</li>
-		</ul>
-		<ul class="icon1 sub-icon1 profile_img">
+	   	<ul class="icon1 sub-icon1 profile_img">
 			<li><a class="active-icon c2" href="checkout.html"></a></li>
 		</ul>
 	    
