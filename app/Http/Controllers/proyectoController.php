@@ -235,4 +235,8 @@ class proyectoController extends Controller
     {
         return view('/inicio');
     }
+    public function registrarCliente()
+    {
+        return view('/registrarCliente');
+    }
 }

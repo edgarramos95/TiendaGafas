@@ -35,7 +35,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<ul>
 					<li><a href="checkout.html">Lista de deseos</a></li> |
 					<li><a href="login.html">Iniciar sesión</a></li> |
-					<li><a href="register.html">Regístrate aquí</a></li>
+					<li><a href="{{url('/registrarCliente')}}">Regístrate aquí</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
