@@ -38,3 +38,4 @@ Route::get('/consultarArticulos','proyectoController@consultarArt');
 
 Route::get('/eliminarCliente/{id}','proyectoController@eliminarCli');
 Route::get('/eliminarAdministrador/{id}','proyectoController@eliminarAdmin');
+Route::get('/eliminarCategoria/{id}','proyectoController@eliminarCat');
