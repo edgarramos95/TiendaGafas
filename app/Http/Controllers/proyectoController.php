@@ -167,4 +167,15 @@ class proyectoController extends Controller
 
         return view('editarCategoria',compact('categoria'));
     }
+    public function editarArt($id)
+    {
+        $articulo=DB::table('articulo')
+            ->where('articulo.id', '=', $id)
+            ->join('categoria','categoria.id','=','articulo.id_categoria')
+            ->select('categoria.*','categoria.descripcion')
+            ->first();
+        $categorias=Categoria::all();
+
+        return view('editarArticulo',compact('articulo','categoria'));
+    }
 }
