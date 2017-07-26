@@ -61,6 +61,7 @@ Route::get('/inicio','proyectoController@inicio');
 Route::get('/registrarCliente','proyectoController@registrarCliente');
 Route::get('/iniciar_seccion','proyectoController@iniciar_seccion');
 Route::get('/revisarCompras','proyectoController@revisarCompras');
+Route::get('/admin','proyectoController@admin');
 
 Route::post('/guardarClientes','proyectoController@guardarClientes');
 

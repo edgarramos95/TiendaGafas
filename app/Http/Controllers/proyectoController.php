@@ -247,6 +247,10 @@ class proyectoController extends Controller
     {
         return view('/revisarCompras');
     }
+    public function admin()
+    {
+        return view('/admin');
+    }
 
     public function guardarClientes(Request $datos)
     {
