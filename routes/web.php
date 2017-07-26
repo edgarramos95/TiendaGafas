@@ -34,3 +34,4 @@ Route::post('/guardarArticulo','proyectoController@guardarArt');
 Route::get('/consultarClientes','proyectoController@consultarCli');
 Route::get('/consultarAdministradores','proyectoController@consultarAdmin');
 Route::get('/consultarCategorias','proyectoController@consultarCat');
+Route::get('/consultarArticulos','proyectoController@consultarArt');
