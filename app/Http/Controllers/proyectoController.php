@@ -192,4 +192,18 @@ class proyectoController extends Controller
         $cliente->save();
         return redirect('/consultarClientes');
     }
+    public function actualizarAdmin($id, Request $datos)
+    {
+        $administrador = Administrador::find($id);
+        $administrador->nombres=$datos->input('nombres');
+        $administrador->apellidos=$datos->input('apellidos');
+        $administrador->correo_electronico=$datos->input('correo_electronico');
+        $administrador->contraseña=$datos->input('contraseña');
+        $administrador->domicilio=$datos->input('domicilio');
+        $administrador->estado=$datos->input('estado');
+        $administrador->ciudad=$datos->input('ciudad');
+        $administrador->telefono=$datos->input('telefono'); 
+        $administrador->save();
+        return redirect('/consultarAdministradores');
+    }
 }
