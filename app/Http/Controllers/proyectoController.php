@@ -227,4 +227,8 @@ class proyectoController extends Controller
     {
         return view('/gafasMujeres');
     }
+    public function gafasHombres()
+    {
+        return view('/gafasHombres');
+    }
 }
