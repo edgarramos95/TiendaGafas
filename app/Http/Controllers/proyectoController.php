@@ -223,4 +223,8 @@ class proyectoController extends Controller
         $articulo->save();
         return redirect('/consultarArticulos');
     }
+    public function gafasMujeres()
+    {
+        return view('/gafasMujeres');
+    }
 }

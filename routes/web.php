@@ -16,7 +16,7 @@ Route::get('/admin', function () {
 });
 
 Route::get('/', function () {
-    return view('registrarCliente');
+    return view('master');
 });
 
 Route::get('/registroCliente','proyectoController@registroCli');
@@ -50,3 +50,5 @@ Route::post('/actualizarCliente/{id}','proyectoController@actualizarCli');
 Route::post('/actualizarAdministrador/{id}','proyectoController@actualizarAdmin');
 Route::post('/actualizarCategoria/{id}','proyectoController@actualizarCat');
 Route::post('/actualizarArticulo/{id}','proyectoController@actualizarArt');
+
+Route::get('/gafasMujeres','proyectoController@gafasMujeres');

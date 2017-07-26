@@ -52,7 +52,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="menu">
 	            <ul class="megamenu skyblue">
 					<li class="active grid"><a href="index.html">Inicio</a></li>
-					<li><a class="color4" href="gafasMujeres.blade.php">Mujeres</a></li>				
+					<li><a class="color4" href="{{url('/gafasMujeres')}}">Mujeres</a></li>				
 					<li><a class="color5" href="mens.html">Hombres</a></li>
 				</ul>
 			</div>
