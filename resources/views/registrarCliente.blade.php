@@ -1,6 +1,9 @@
 @extends('master')
 
 @section('contenido')
+<form action="{{url('/guardarClientes')}}" method="POST">
+<input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
+
           <div class="register_account">
             <div class="wrap">
             <h4 class="title">REGISTRO DE CLIENTES</h4>
@@ -8,14 +11,14 @@
            <div class="col_1_of_2 span_1_of_2">
           <div class="form-group">
             <label for="nombres">Nombre:</label>
-            <input type="text" class="form-control" name="nombre" maxlength="50" required>
+            <input type="text" class="form-control" name="nombres" maxlength="50" required>
           </div>
           <div class="form-group">
             <label for="apellidos">Apellidos:</label>
             <input type="text" class="form-control" name="apellidos" maxlength="50" required>
           </div>
           <div class="form-group">
-            <label for="correo_electronico">Correo:</label>
+            <label for="correo_electronico">Correo electrónico:</label>
             <input type="text" class="form-control" name="correo_electronico" maxlength="50" required>
           </div>
           <div class="form-group">
@@ -80,7 +83,7 @@
                 <div class="form-group">
                   <label for="telefono">Numero de Telefono:</label>
                   <br>
-                  <input type="text" value="" maxlength="10" class="number">                  
+                  <input type="text" value="" name="telefono" maxlength="10" class="number">                  
                 </div>
               </div>
               </div>
