@@ -78,7 +78,17 @@ class proyectoController extends Controller
     	return redirect('/consultarCategorias');
     }
 
+    public function guardarArt(Request $datos)
+    {
+        $articulo = new Articulo();
+        $articulo->precio=$datos->input('precio');
+        $articulo->descripcion=$datos->input('descripcion');
+        $articulo->costo=$datos->input('costo');
+        $articulo->categoria=$datos->input('categoria');
+        $articulo->save();
 
+        return redirect('/consultarArticulos');
+    }
 
     public function consultarCli()
     {
