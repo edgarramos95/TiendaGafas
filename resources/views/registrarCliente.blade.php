@@ -7,7 +7,7 @@
            <form>
            <div class="col_1_of_2 span_1_of_2">
           <div class="form-group">
-            <label for="nombre">Nombre:</label>
+            <label for="nombres">Nombre:</label>
             <input type="text" class="form-control" name="nombre" maxlength="50" required>
           </div>
           <div class="form-group">
