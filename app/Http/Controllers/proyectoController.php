@@ -256,7 +256,6 @@ class proyectoController extends Controller
         return view('/login');
     }
 
-
     public function guardarClientes(Request $datos)
     {
     	$cliente=new Cliente();
