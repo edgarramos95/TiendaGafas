@@ -1,29 +1,541 @@
-commit f134f7543a5e69d6237478bb890e395e0ff122c9
+commit 2568139d9d8402cc5087efcfb2735b39c76a1ed8
 Author: Edgar Ramos <edgar_nathan@hotmail.com>
-Date:   Fri Jul 21 00:01:10 2017 -0600
+Date:   Tue Jul 25 21:35:41 2017 -0600
 
-    Vista de iniciar seccion lista
+    Modifique master
 
-commit 47ebef098b34a3e80509c4f45ee3155a079abf6b
+commit 37072330f953d2a2d275c99cd393e564b048f1fc
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:46:12 2017 -0600
+
+    Se agrego la ruta de inicio
+
+commit 7b3bdd9c6cf23adfd79596ab260e879a4e1b65cf
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:43:59 2017 -0600
+
+    Se agrego la ruta de gafas de hombres
+
+commit 53d6a423ffa2492fbeac2cd48be40ef73ff2fba2
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:41:36 2017 -0600
+
+    Se agrego la ruta de gafas de mujeres
+
+commit 13a8051c2d1efdd4ab873e2994187d92766e79e7
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:32:23 2017 -0600
+
+    Se agrego la ruta de actualizar articulos
+
+commit 26d68dc8df55632635b89f1a37dcd2b6aed76fc3
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:31:01 2017 -0600
+
+    Se agrego el metodo actualizar articulos
+
+commit 9c2de7a4ed99d9f8dec29ac53b137ca289871593
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:28:56 2017 -0600
+
+    Se agrego la ruta de actualizar categoria
+
+commit 40153351bd4f86ec0ca84ed3b9e1d1d087219c27
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:27:19 2017 -0600
+
+    Se agrego el metodo de actualizar categorias
+
+commit 8cf6c09e9996443ae53587c7cb549d1b68be3222
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:24:56 2017 -0600
+
+    Se agrego la ruta de actualizar administrador
+
+commit 966fcdf6dbe13273efcf510eb636780f92eea4c1
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:23:01 2017 -0600
+
+    Se agrego el metodo de actualizar administrador
+
+commit cedccccff1caf7e136be3f20677c3cfaa8db8a1c
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:20:14 2017 -0600
+
+    Se agrego la ruta de actualizar cliente
+
+commit 786b7015234a62e8806c00812fcee4eb8bd8869f
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 20:18:38 2017 -0600
+
+    Se agrego el metodo de actualizar cliente
+
+commit 0cc245dbfa4a67df17798030a4bbeaadca0e08a5
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:47:28 2017 -0600
+
+    Se agrego la vista de editar articulo
+
+commit 152aaf595c18473ff26cb8f8964b5c387e56b21b
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:45:40 2017 -0600
+
+    Se agrego la ruta de editar categoria
+
+commit 1f5c15776cc2b7d17189dd015f36b219c49c8149
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:43:32 2017 -0600
+
+    Se agrego los campos a editar en la vista editar articulo
+
+commit 6012cb5831ddec0e65d7cff79cd7425592a708e0
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:41:36 2017 -0600
+
+    Se creo la vista de editar articulo
+
+commit 745c0fcaa5472bac5a339f2a6cc7b938498250f9
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:40:13 2017 -0600
+
+    Se agrego el metodo de editar articulo
+
+commit 20da3e7af438651894b84a54c95606733eb188dd
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:33:31 2017 -0600
+
+    Se agrego los campos a editar en la vista editar categoria
+
+commit 3ff085dd286f50b229bf312cb3807d9d9166bc7f
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:30:37 2017 -0600
+
+    Se creo la vista editar categoria
+
+commit dd568e304b0b82f68cff0d5ee1a47743109c2152
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:28:56 2017 -0600
+
+    Se agrego el metodo de editar categoria
+
+commit a3db5740abb5160ee8deb84ef833b2c466f4191c
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:26:40 2017 -0600
+
+    Se agrego la ruta de editar administrador
+
+commit 28873e013eaffbcf1cba73ecbb1729fbec9c9a1a
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:22:41 2017 -0600
+
+    Se agrego los campos a editar en la vista editar administrador
+
+commit 9bc3af9aa0f957c7fd2f5112e9e71d9859281924
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:18:03 2017 -0600
+
+    Se agrego la vista editar administrador
+
+commit e5e974bff7a205deb03e139ba6821d023c283c39
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:16:30 2017 -0600
+
+    Se agrego el metodo de editar administrador
+
+commit 89377c69f3582d379cf3340fd699f2e60f74f2e1
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:13:59 2017 -0600
+
+    Se agrego la ruta de editar cliente
+
+commit 2d493c14157433a6c3f9525d0c91607c33f2cc52
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:11:16 2017 -0600
+
+    Se le agrego los campos a editar a la vista editar cliente
+
+commit 1c62f8b7cd64a5751df187eab518991bbfc6634f
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 19:00:45 2017 -0600
+
+    Se creo la vista de editar cliente
+
+commit e67ecf34aab70b03e484dd176a2f8ccb31418811
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:59:22 2017 -0600
+
+    Se agrego el metodo de editar cliente
+
+commit dc1b6bf572eb2c3f6f915821ff91317dc730f398
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:54:32 2017 -0600
+
+    Se agrego la ruta de eliminar articulo
+
+commit 5ba60ff15f5bf50ddf9e77a3b95d662ba4c8fbfd
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:52:43 2017 -0600
+
+    Se modifico la vista de consultar articulo(faltaba una parte)
+
+commit fb545fd08114096abaf5941a54d3e2bebb38c40e
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:46:38 2017 -0600
+
+    Se agrego el metodo de eliminar articulo
+
+commit 097ba31a8e638878db26d78e212b2bb717801a8e
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:41:58 2017 -0600
+
+    Se agrego la ruta de eliminar categoria
+
+commit aa44eabcc9afdbfb60dc0e99a30b68059b42d436
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:40:12 2017 -0600
+
+    Se agrego el metodo de eliminar categoria
+
+commit 0c9d9d63e171c06995c5ae9a70d64f3ec051870d
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:37:03 2017 -0600
+
+    Se agrego la ruta de eliminar administrador
+
+commit e01c3c7a367817804ed65c366f552fbca496a743
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:33:40 2017 -0600
+
+    Se agrego el metodo de eliminar administrador
+
+commit 062e8c62f3e65922c94d4abc50a9f42380462086
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:29:59 2017 -0600
+
+    Se agrego la ruta de eliminar cliente
+
+commit e04c9b8ed24582c1b95234e817db06677632cfea
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:27:23 2017 -0600
+
+    Se agrego el metodo de eliminar cliente
+
+commit c8303ce3bf7f92f5b8541f74bd8e8dcdbe1e7d3a
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:22:00 2017 -0600
+
+    Se agrego la ruta de consultar articulos
+
+commit 52e36763ffce7707259b34a49d21f07bca5a89ee
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:19:56 2017 -0600
+
+    Se agrego el metodo de consultar articulos
+
+commit b75516992e1f21db3fbe2b93979499b3b59bc75b
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:09:03 2017 -0600
+
+    Se agrego la ruta de guardar articulo
+
+commit ff18a583c914baf223d89b5b9da0ffabb251409d
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Tue Jul 25 18:04:18 2017 -0600
+
+    Se agrego el metodo de guardar articulo
+
+commit 2fc1dd0d12d95f0c322ce0a5e43cf3f8e5328b5d
 Author: Edgar Ramos <edgar_nathan@hotmail.com>
-Date:   Thu Jul 20 22:07:10 2017 -0600
+Date:   Tue Jul 25 02:55:33 2017 -0600
 
-    Agregacion de imagenes y modificacion en el diseño
+    Ya registar y consulta administradores
 
-commit dcff8eeccb27db0825a974160a3cc5816c9d2252
+commit 7cbdc921ddf5a9ea5fb1b12a866b9ca03edebe73
 Author: Edgar Ramos <edgar_nathan@hotmail.com>
-Date:   Thu Jul 20 19:52:11 2017 -0600
+Date:   Tue Jul 25 02:50:15 2017 -0600
 
-    Funcionamento de master
+    Modifique variables de registrar clientes para que coincidan con la base de datos
 
-commit 1d9b197917d447334003ab2e8235cb53481b1990
+commit dae9ab617fa281f63839f77fb190b3f407658e81
 Author: Edgar Ramos <edgar_nathan@hotmail.com>
-Date:   Thu Jul 20 18:55:42 2017 -0600
+Date:   Tue Jul 25 02:44:40 2017 -0600
 
-    Modificacion de vistas master e inicio
+    Modifique las variable de los estados
 
-commit 0d2ee1a6ec16e3315153516cfbe74c0a378112a0
+commit 8839690c4621acdf302f716253e91a02b4d79ff8
 Author: Edgar Ramos <edgar_nathan@hotmail.com>
-Date:   Wed Jul 19 22:05:06 2017 -0600
+Date:   Tue Jul 25 02:41:51 2017 -0600
 
-    Creacion del proyecto
+    Ya registra cliente e hice modificacione en registro de cliente
+
+commit fba2f4a299f371d4f2c6dc4c41237fb32cfc4e0a
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 02:20:21 2017 -0600
+
+    Ya consulta admin
+
+commit 9306cd4ca96ea629fcc67dafe52842f81e5cee0f
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 02:13:02 2017 -0600
+
+    Ya consulta clientes
+
+commit 148a40bf6be572c8e9770aa3364758e7b6b1f136
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 01:57:06 2017 -0600
+
+    Ya consulta categorias
+
+commit 04b75e17717ccafba7ce7ab1c2daf7b75e4996c0
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 01:39:45 2017 -0600
+
+    Ya guarda categorias y lass muestra en registrar articulos
+
+commit 61bb293cf370229f43762464e475f790fdf9ba31
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 01:31:20 2017 -0600
+
+    Configuracion de rutas agregar
+
+commit 9ee015c858d130d78b628937eb347138f6bfc836
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 00:55:19 2017 -0600
+
+    Agregue la vista de registrar admini
+
+commit 89d8883b93d8f8f81ead3a2d5720315b90337daf
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 00:49:32 2017 -0600
+
+    Puse limite de caracteres a los registros de clientes
+
+commit 8d16bc309e34f75749b2be425f243967e0cb8699
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 00:37:54 2017 -0600
+
+    Modifique el diseño de registroClientes
+
+commit 6dfbbdf20b2ebc528de2674451607ce271418909
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Tue Jul 25 00:08:23 2017 -0600
+
+    Cambio de nombre de registro por registroCliente
+
+commit 412703628e8b200c4310cfc2d6067318fd76b15c
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Mon Jul 24 23:56:30 2017 -0600
+
+    Conflicto resuelto de masted_admin
+
+commit 5607f2a519e43943a9cd6fc0958b5354b104a388
+Merge: 0200618 e22b586
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Mon Jul 24 23:56:01 2017 -0600
+
+    Conflicto resuelto de las rutas
+
+commit 02006181d9712f2db2d86709f8c3cce959c0b531
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Mon Jul 24 23:51:26 2017 -0600
+
+    Creacion de molelos
+
+commit e22b586e76fda57d7f8c717266e3432029d15dc7
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Mon Jul 24 23:48:33 2017 -0600
+
+    Se le agregaron los compas a la vista de consultar categorias
+
+commit 1026a5dc3d145e8829b5fa82b0784cc42ca43066
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Mon Jul 24 23:47:19 2017 -0600
+
+    Se agrego la vista consultar categorias
+
+commit 62db2ecbd93790984b08338388f53189575d2679
+Merge: 2f848d5 db867fc
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Mon Jul 24 23:45:49 2017 -0600
+
+    Se le agrego los campos a la vista de consultar articulos
+
+commit 2f848d5e64617e5fab8423f290000a41c42bc523
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Mon Jul 24 23:37:57 2017 -0600
+
+    Se agrego la vista de consultar articulos
+
+commit db867fccdb2af95aca17d867f898b316964952d0
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Mon Jul 24 23:35:00 2017 -0600
+
+    Consulta de administradores lista
+
+commit 67c19ddee8d3126c90dbe0d9c98da7e8ea45ddd7
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Mon Jul 24 23:34:10 2017 -0600
+
+    Consulta de clientes lista
+
+commit 30d994c0f792a00b210fe814369d67416d984884
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Mon Jul 24 22:50:31 2017 -0600
+
+    Creacion del controller
+
+commit 684ac764caf83bedf449a2e2ae255d941cabc95a
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 23:50:06 2017 -0600
+
+    Modifique nombre
+
+commit 5ea7abef42f86141a485ae958ae48faf7efa8ba1
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 23:40:24 2017 -0600
+
+    Vista de consultarAdministradores agregada, pero marca error
+
+commit 685cf059bb92e16059c2d597e449352f8a9d9977
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 23:37:55 2017 -0600
+
+    Vista de consultarClientes modificad, pero sigue con error
+
+commit b5153a65b891462f2afd6e2a310e6b7b0fe27105
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 23:32:52 2017 -0600
+
+    Vista de consultarClientes agregada, per marca error
+
+commit 656c512ada2c24abb478191ad9bb0127a6736aad
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 23:26:04 2017 -0600
+
+    Vista de registro de clientes por parte del administrador
+
+commit e86391e7c0f6d07590589540db73c468249c3ffd
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 21:40:21 2017 -0600
+
+    Agregue vistas master_admin y admin
+
+commit 42a82d5e49c0e1e587da4fd9ee2d3d7b5549ba4d
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 20:56:52 2017 -0600
+
+    Modifique unos detalles de la vista de registro para que se viera acomodado
+
+commit 64151c01443c0d1dd4b7159059564cd64a6fa3f5
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sun Jul 23 20:30:26 2017 -0600
+
+    Configuracion de la base de datos a su forma original
+
+commit db9fc3a4643f1a8938eb159059023f0315c76d33
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 15:25:08 2017 -0600
+
+    Se cambió la forma de capturar los datos(Edgar checalo haber si te gusta sino cambialo)
+
+commit 2771d296485b48e557dbc19dbd7edd0426bdc410
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 15:12:39 2017 -0600
+
+    Cambio de paises a estados en el registro
+
+commit 34eff26c30549ef50b20e58cf9e25beb842b4a9d
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 15:06:09 2017 -0600
+
+    Se le agrego imagenes y la parte de las categorias
+
+commit ee879d363f0279e3c51f6e4a8a472870f84132c2
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:53:59 2017 -0600
+
+    Se creo la vista de otras gafas
+
+commit 927d14b2f1e923d0c045dc4ffc57af26f090404b
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:49:45 2017 -0600
+
+    Se agrego lo de la bolsa de compra
+
+commit edb882d80d73c32f91babd5753fcff0c6dc9b05b
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:45:38 2017 -0600
+
+    Se creó una vista de las compras realizadas
+
+commit 2ff83a783795f3846511967405089103400a16b5
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:38:52 2017 -0600
+
+    Se le agrego las imagenes y la parte de las categorias
+
+commit 96b7db7e135b2c72eda030955d6dd3d0eb9e540c
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:22:32 2017 -0600
+
+    Se creó la vista de gafas para mujeres
+
+commit 82a682912bbdcb08624eed9300b435cfafad5adf
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:20:50 2017 -0600
+
+    Se le agrego la parte de las categorias
+
+commit dcb772a64f048a5e44fcf07cf2c00edb73c3bc0c
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 14:03:45 2017 -0600
+
+    Se agrego imagenes en la vista
+
+commit 9d1cba336f28d82fe4f0b281465ea1a55ca94fd9
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 13:35:51 2017 -0600
+
+    Se creó la vista de gafas para hombres
+
+commit 20d2f4a0f98376ae4c4bd7c168d51c50908088fb
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 13:28:27 2017 -0600
+
+    Se le agrego los campos de los datos y un mapa
+
+commit b66ce351614555673b294fe85b9de412e5ac5d52
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 13:07:44 2017 -0600
+
+    Se creó la vista de enviar mensaje
+
+commit 97f384569c58d04d6c49c0b0b9d19ecf5520eda1
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 13:01:25 2017 -0600
+
+    Se le agrego la mision,vision e imagenes}
+
+commit ac84e0cfe7c2405fb7bad0dd5625e303cb77ba9a
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 12:31:49 2017 -0600
+
+    Testimonios en la vista mision y vision
+
+commit 393878c3335d7c3c8cd80ce8c17959b55cee6ac3
+Author: Selena Alanis <selena23_alanisV@hotmail.com>
+Date:   Sat Jul 22 12:19:59 2017 -0600
+
+    Vista de la mision y vision de la tienda
+
+commit 703237f8db7d8bfe046f7a35900fd1aecf4e1581
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Sat Jul 22 00:35:21 2017 -0600
+
+    Configracion para sql server, SELENA TIENES QUE CONFIGURAR EL ARCHIVO .env CON TUS DATOS DE SQL SERVER; AUN NO ESTOY SEGURO QUE FUNCIONE
+
+commit 71f4fa831502ddeb42b0702af5e03cbec62fedfb
+Author: Edgar Ramos <edgar_nathan@hotmail.com>
+Date:   Fri Jul 21 12:01:08 2017 -0600
+
+    Primer commit

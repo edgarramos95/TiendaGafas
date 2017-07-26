@@ -54,3 +54,6 @@ Route::post('/actualizarArticulo/{id}','proyectoController@actualizarArt');
 Route::get('/gafasMujeres','proyectoController@gafasMujeres');
 Route::get('/gafasHombres','proyectoController@gafasHombres');
 Route::get('/inicio','proyectoController@inicio');
+Route::get('/registrarCliente','proyectoController@registrarCliente');
+Route::get('/iniciar_seccion','proyectoController@iniciar_seccion');
+Route::get('/revisarCompras','proyectoController@revisarCompras');

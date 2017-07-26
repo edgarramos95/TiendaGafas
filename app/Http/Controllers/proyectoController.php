@@ -235,4 +235,16 @@ class proyectoController extends Controller
     {
         return view('/inicio');
     }
+    public function registrarCliente()
+    {
+        return view('/registrarCliente');
+    }
+    public function iniciar_seccion()
+    {
+        return view('/iniciar_seccion');
+    }
+    public function revisarCompras()
+    {
+        return view('/revisarCompras');
+    }
 }
