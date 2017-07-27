@@ -272,6 +272,10 @@ class proyectoController extends Controller
 		return redirect('/inicio');   	
     }
 
+    /*Route::bind('articulo', function($slug)
+    {
+    	return App\Articulo::where('slug',$slug)->first();
+    })
 
     public function __construct()
     {
@@ -282,5 +286,16 @@ class proyectoController extends Controller
     {
     	return \Session::get('cart');
     }
+
+    public function agregarArticulo(Articulo $articulo)
+    {
+
+    	$cart=\Session::get('cart');
+    	$articulo->quantity=1;
+    	$cart[$articulo->slug]=$articulo;
+    	\Session::put('cart',$cart);
+
+    	return redirect()->route('cart-mostrarCarro');
+    }*/
 
 }

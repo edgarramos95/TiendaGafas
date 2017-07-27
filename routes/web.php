@@ -69,4 +69,6 @@ Route::post('/guardarClientes','proyectoController@guardarClientes');
 
 
 //Carro
-Route::get('cart/mostrarCarro',['as'=>'cart-mostrarCarro','uses'=>'proyectoController@mostrarCarro']);
+/*Route::get('cart/mostrarCarro',['as'=>'cart-mostrarCarro','uses'=>'proyectoController@mostrarCarro']);
+Route::get('cart/agregar/{articulo}',['as'=>'cart-agregar','uses'=>'proyectoController@agregarArticulo']);
+*/

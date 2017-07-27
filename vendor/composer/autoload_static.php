@@ -12,9 +12,9 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
@@ -92,6 +92,7 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
         array (
             'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Common\\Inflector\\' => 26,
             'DeepCopy\\' => 9,
         ),
         'C' => 
@@ -240,6 +241,10 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
@@ -288,11 +293,11 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
                 0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
             ),
         ),
-        'D' => 
+        'G' => 
         array (
-            'Doctrine\\Common\\Inflector\\' => 
+            'Gloudemans\\Shoppingcart' => 
             array (
-                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
+                0 => __DIR__ . '/..' . '/gloudemans/shoppingcart/src',
             ),
         ),
     );
@@ -316,6 +321,7 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Imagen' => __DIR__ . '/../..' . '/app/Imagen.php',
+        'App\\Mail\\mail' => __DIR__ . '/../..' . '/app/Mail/mail.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -775,6 +781,18 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
+        'Gloudemans\\Shoppingcart\\Cart' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Cart.php',
+        'Gloudemans\\Shoppingcart\\CartCollection' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/CartCollection.php',
+        'Gloudemans\\Shoppingcart\\CartRowCollection' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/CartRowCollection.php',
+        'Gloudemans\\Shoppingcart\\CartRowOptionsCollection' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/CartRowOptionsCollection.php',
+        'Gloudemans\\Shoppingcart\\Exceptions\\ShoppingcartInstanceException' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Exceptions/ShoppingcartInstanceException.php',
+        'Gloudemans\\Shoppingcart\\Exceptions\\ShoppingcartInvalidItemException' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Exceptions/ShoppingcartInvalidItemException.php',
+        'Gloudemans\\Shoppingcart\\Exceptions\\ShoppingcartInvalidPriceException' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Exceptions/ShoppingcartInvalidPriceException.php',
+        'Gloudemans\\Shoppingcart\\Exceptions\\ShoppingcartInvalidQtyException' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Exceptions/ShoppingcartInvalidQtyException.php',
+        'Gloudemans\\Shoppingcart\\Exceptions\\ShoppingcartInvalidRowIDException' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Exceptions/ShoppingcartInvalidRowIDException.php',
+        'Gloudemans\\Shoppingcart\\Exceptions\\ShoppingcartUnknownModelException' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Exceptions/ShoppingcartUnknownModelException.php',
+        'Gloudemans\\Shoppingcart\\Facades\\Cart' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/Facades/Cart.php',
+        'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Gloudemans/Shoppingcart/ShoppingcartServiceProvider.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
         'GuzzleHttp\\Cookie\\CookieJar' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Cookie/CookieJar.php',
@@ -2523,6 +2541,7 @@ class ComposerStaticIniteb4ea738ae38e5063178e6511f327bef
         'Psy\\CodeCleaner\\CodeCleanerPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/CodeCleanerPass.php',
         'Psy\\CodeCleaner\\ExitPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/ExitPass.php',
         'Psy\\CodeCleaner\\FinalClassPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/FinalClassPass.php',
+        'Psy\\CodeCleaner\\FunctionContextPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/FunctionContextPass.php',
         'Psy\\CodeCleaner\\FunctionReturnInWriteContextPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/FunctionReturnInWriteContextPass.php',
         'Psy\\CodeCleaner\\ImplicitReturnPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/ImplicitReturnPass.php',
         'Psy\\CodeCleaner\\InstanceOfPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/InstanceOfPass.php',
