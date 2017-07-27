@@ -272,13 +272,15 @@ class proyectoController extends Controller
 		return redirect('/inicio');   	
     }
 
-    public function enviarCorreo($correo_electronico, $nombres)
+
+    public function __construct()
     {
+    	if(!\Session::has('cart')) \Session::put('cart',array());
+    }
 
-    	$cliente=Cliente::find(1);
-    	Mail::to($correo_electronico,$nombres)->send(new mailBienvenida($correo_electronico, $cliente));
-    	return "Correo enviado correctamente";
-
+    public function mostrarCarro()
+    {
+    	return \Session::get('cart');
     }
 
 }

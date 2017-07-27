@@ -1,4 +1,5 @@
 @extends('master')
+
 @section('contenido')
 <div class="mens">    
   <div class="main">
