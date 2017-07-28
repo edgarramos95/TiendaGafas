@@ -2,7 +2,7 @@
 @section('contenido')
   	   <div class="login">
           <div class="wrap">
-				<ul class="breadcrumb breadcrumb__t"><a class="home" href="#">Inicio</a>  / Cuenta</ul>
+				<ul class="breadcrumb breadcrumb__t"><a class="home" href="{{url('/inicio')}}">Inicio</a></ul>
 				<div class="section group">
 				   <div class="labout span_1_of_about">
 					 <h3>Testimonios</h3>

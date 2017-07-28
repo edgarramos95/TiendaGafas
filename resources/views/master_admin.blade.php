@@ -46,6 +46,9 @@
           
           </ul>
         </li>
+        <li>
+          <a href="{{url('/inicio')}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Salir <span class="caret"></span></a>
+        </li>
       </ul>
       
     </div>

@@ -66,7 +66,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 </div>
 	  <div class="tag-list">
 	   	<ul class="icon1 sub-icon1 profile_img">
-			<li><a class="active-icon c2" href="checkout.html"></a></li>
+			<li><a class="active-icon c2" href="{{url('/revisarCompras')}}"></a></li>
 		</ul>
 	    
 	  </div>
@@ -268,10 +268,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		         </div>
 				<div class="f-list2">
 				 <ul>
-					<li class="active"><a href="about.html">Sobre Nosotros</a></li> |
-					<li><a href="delivery.html">Entregas y Devoluciones</a></li> |
-					<li><a href="delivery.html">Términos y Condiciones</a></li> |
-					<li><a href="contact.html">Contáctenos</a></li> 
+					<li class="active"><a href="{{url('/misionVision')}}">Sobre Nosotros</a></li> |
+					<li><a href="{{url('/politicasDevolucion')}}">Políticas de Devolución</a></li> |
+					<li><a href="{{url('/condicionesServicio')}}">Condiciones del Servicio</a></li> |
+					<li><a href="{{url('/enviarMensaje')}}">Contáctenos</a></li> 
 				 </ul>
 			    </div>
 			    <div class="clear"></div>

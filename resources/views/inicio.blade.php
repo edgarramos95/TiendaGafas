@@ -48,7 +48,7 @@
 		  	<h2 class="head">PRODUCTOS DESTACADOS</h2>
 			<div class="top-box">
 			 <div class="col_1_of_3 span_1_of_3"> 
-			   <a href="single.html">
+			   <a href="">
 				<div class="inner_content clearfix">
 					<div class="product_image">
 						<img src="images/pic.jpg" alt=""/>
@@ -68,7 +68,7 @@
                  </a>
 				</div>
 			   <div class="col_1_of_3 span_1_of_3">
-			   	 <a href="single.html">
+			   	 <a href="">
 					<div class="inner_content clearfix">
 					<div class="product_image">
 						<img src="images/pic1.jpg" alt=""/>

@@ -62,6 +62,11 @@ Route::get('/registrarCliente','proyectoController@registrarCliente');
 Route::get('/iniciar_seccion','proyectoController@iniciar_seccion');
 Route::get('/revisarCompras','proyectoController@revisarCompras');
 Route::get('/admin','proyectoController@admin');
+Route::get('/misionVision','proyectoController@misionVision');
+Route::get('/enviarMensaje','proyectoController@enviarMensaje');
+Route::get('/condicionesServicio','proyectoController@condicionesServicio');
+Route::get('/politicasDevolucion','proyectoController@politicasDevolucion');
+//Route::get('/verArticulo','proyectoController@verArticulo');
 
 Route::post('/guardarClientes','proyectoController@guardarClientes');
 
