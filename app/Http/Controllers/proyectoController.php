@@ -271,6 +271,10 @@ class proyectoController extends Controller
     {
         return view('/politicasDevolucion');
     }
+    public function login()
+    {
+        return view('/login');
+    }
     public function guardarClientes(Request $datos)
     {
     	$cliente=new Cliente();
@@ -286,4 +290,31 @@ class proyectoController extends Controller
 
 		return redirect('/inicio');   	
     }
+
+    /*Route::bind('articulo', function($slug)
+    {
+    	return App\Articulo::where('slug',$slug)->first();
+    })
+
+    public function __construct()
+    {
+    	if(!\Session::has('cart')) \Session::put('cart',array());
+    }
+
+    public function mostrarCarro()
+    {
+    	return \Session::get('cart');
+    }
+
+    public function agregarArticulo(Articulo $articulo)
+    {
+
+    	$cart=\Session::get('cart');
+    	$articulo->quantity=1;
+    	$cart[$articulo->slug]=$articulo;
+    	\Session::put('cart',$cart);
+
+    	return redirect()->route('cart-mostrarCarro');
+    }*/
+
 }

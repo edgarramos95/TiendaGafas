@@ -67,7 +67,13 @@ Route::get('/enviarMensaje','proyectoController@enviarMensaje');
 Route::get('/condicionesServicio','proyectoController@condicionesServicio');
 Route::get('/politicasDevolucion','proyectoController@politicasDevolucion');
 //Route::get('/verArticulo','proyectoController@verArticulo');
+Route::get('/login','proyectoController@login');
 
 Route::post('/guardarClientes','proyectoController@guardarClientes');
 
 
+
+//Carro
+/*Route::get('cart/mostrarCarro',['as'=>'cart-mostrarCarro','uses'=>'proyectoController@mostrarCarro']);
+Route::get('cart/agregar/{articulo}',['as'=>'cart-agregar','uses'=>'proyectoController@agregarArticulo']);
+*/

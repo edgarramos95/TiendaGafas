@@ -9,6 +9,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 <link rel="icon" href="images/logoico.ico">
 <title>Lunettes</title>
+<link rel="stylesheet" href="{{asset("css/bootstrap.css")}}"">
+<script src="{{asset("js/jquery-3.2.1.js")}}"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -54,7 +56,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li class="active grid"><a href="{{url('/inicio')}}">Inicio</a></li>
 					<li><a class="color4" href="{{url('/gafasMujeres')}}">Mujeres</a></li>				
 					<li><a class="color5" href="{{url('/gafasHombres')}}">Hombres</a></li>
-					<li><a class="color5" href="{{url('/admin')}}">Administradores</a></li>
+					<li><a class="color5" href="{{url('/login')}}">Administradores</a></li>
+
 				</ul>
 			</div>
 		</div>
