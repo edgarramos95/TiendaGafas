@@ -13,11 +13,11 @@
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <!-- Text title -->
-                        <h4 class="title">MENSAJE</h4>
+                        <h4 class="title">LAS MEJORES GAFAS</h4>
                         <!-- /Text title -->
                         
                         <!-- Text description -->
-                        <p class="description">MENSAJE</p>
+                        <p class="description">EXISTEN DIFERENTES TIPOS DE GAFAS</p>
                         <!-- /Text description -->
                     </div>
                 </div>
@@ -28,8 +28,8 @@
                 <img src="images/banner1.jpg" alt=""/>
                 <div class="slide_content">
                     <div class="slide_content_wrap">
-                        <h4 class="title">MENSAJE</h4>
-                        <p class="description">MENSAJE</p>
+                        <h4 class="title">GAFAS DE ACUERDO A TUS NECESIDADES</h4>
+                        <p class="description">O DE ACUERDO A SUS GUSTOS PERSONALES</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
 		  	<h2 class="head">PRODUCTOS DESTACADOS</h2>
 			<div class="top-box">
 			 <div class="col_1_of_3 span_1_of_3"> 
-			   <a href="">
+			   <a href="{{url('/verArticulo')}}">
 				<div class="inner_content clearfix">
 					<div class="product_image">
 						<img src="images/pic.jpg" alt=""/>
@@ -234,7 +234,7 @@
 				</div>
 				<div class="clear"></div>
 			</div>	
-		  <h2 class="head">SELECCION PERSONAL</h2>
+		  <h2 class="head">PRODUCTOS</h2>
 		  <div class="top-box1">
 			  <div class="col_1_of_3 span_1_of_3">
 			  	 <a href="single.html">

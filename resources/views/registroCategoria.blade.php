@@ -12,7 +12,7 @@
 		<input type="text" class="form-control" name="descripcion" maxlength="500" required>
 	</div>
 	<button type="submit" class="btn btn-primary">Registrar</button>
-	<a href="{{url('/')}}" class="btn btn-danger">Cancelar</a>
+	<a href="{{url('/consultarCategorias')}}" class="btn btn-danger">Cancelar</a>
 </form>
 <div class="clear"></div>
 

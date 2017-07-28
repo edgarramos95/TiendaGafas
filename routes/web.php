@@ -66,9 +66,9 @@ Route::get('/misionVision','proyectoController@misionVision');
 Route::get('/enviarMensaje','proyectoController@enviarMensaje');
 Route::get('/condicionesServicio','proyectoController@condicionesServicio');
 Route::get('/politicasDevolucion','proyectoController@politicasDevolucion');
-//Route::get('/verArticulo','proyectoController@verArticulo');
+Route::get('/verArticulo','proyectoController@verArticulo');
 Route::get('/login','proyectoController@login');
-Route::get('/master_admin','proyectoController@master_admin');
+Route::get('/admin','proyectoController@master_admin');
 
 Route::post('/guardarClientes','proyectoController@guardarClientes');
 

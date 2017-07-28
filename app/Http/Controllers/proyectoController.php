@@ -259,10 +259,10 @@ class proyectoController extends Controller
     {
         return view('/enviarMensaje');
     }
-    //public function verArticulo()
-    //{
-      //  return view('/verArticulo');
-    //}
+    public function verArticulo()
+    {
+        return view('/verArticulo');
+    }
     public function condicionesServicio()
     {
         return view('/condicionesServicio');
@@ -277,7 +277,7 @@ class proyectoController extends Controller
     }
     public function master_admin()
     {
-        return view('/master_admin');
+        return view('/admin');
     }
     public function guardarClientes(Request $datos)
     {

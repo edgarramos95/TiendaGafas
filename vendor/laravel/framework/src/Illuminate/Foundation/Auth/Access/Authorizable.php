@@ -41,4 +41,5 @@ trait Authorizable
     {
         return $this->cant($ability, $arguments);
     }
+    
 }

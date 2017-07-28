@@ -3,7 +3,7 @@
 <div class="mens">    
   <div class="main">
      <div class="wrap">
-     	<ul class="breadcrumb breadcrumb__t"><a class="home" href="{{url('/inicio')}}">Inicio</a> / <a href="{{url('/gafasMujeres')}}">Gafas para mujeres</a> / <a href="{{url('/gafasHombres')}}">Gafas para hombres</a></ul>
+     	<ul class="breadcrumb breadcrumb__t"></ul>
 		<div class="cont span_2_of_3">
 		  	<div class="grid images_3_of_2">
 						<ul id="etalage">
@@ -36,7 +36,7 @@
 							<input type="submit" value="buy" title="">
 						</form>
 					 </div>
-					<span class="m_link"><a href="#">Inicie sesión para guardar su compra</a> </span>
+					<span class="m_link"><a href="{{url('/iniciar_seccion')}}">Inicie sesión para guardar su compra</a> </span>
 				     <p class="m_text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit </p>
 			     </div>
 			   <div class="clear"></div>	

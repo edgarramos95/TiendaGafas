@@ -14,8 +14,7 @@
 						<div class="form-group{{ $errors->has('correo_electronico') ? 'has-error' : '' }}">
 							<label class="col-md-4 control-label">Correo Electronico:</label>
 							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{old('email')}}">
-								
+								<input type="text" class="form-control" name="correo_electronico" value="{{old('correo_electronico')}}">
 							</div>
 						</div>
 						<div class="form-group{{ $errors->has('contraseña') ? 'has-error' : '' }}">
@@ -24,10 +23,13 @@
 								<input type="password" class="form-control" name="password" value="{{old('email')}}">
 								
 							</div>
-						</div>
+
 						<div class="col-md-6">
-							<button type="submit" class="btn btn-primary" href="{{url('/master_admin')}}">Entrar</button>
+							<a href="{{url('/admin')}}" class="btn btn-xs btn-primary">
+							<span class="glyphicon glyphicon-ok" aria-hidden="true">Entrar</a>
 						</div>
+						</div>
+        
 					</form>
 				</div>
 			</div>
