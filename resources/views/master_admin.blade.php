@@ -33,7 +33,7 @@
             <li><a href="{{url('/admin')}}">Registrar Imagen</a></li>            
           </ul>
         </li>
-hhhg
+
         <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Consultar <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
