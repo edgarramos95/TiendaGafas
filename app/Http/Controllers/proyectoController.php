@@ -247,15 +247,34 @@ class proyectoController extends Controller
     {
         return view('/revisarCompras');
     }
+    public function misionVision()
+    {
+        return view('/misionVision');
+    }
     public function admin()
     {
         return view('/admin');
+    }
+    public function enviarMensaje()
+    {
+        return view('/enviarMensaje');
+    }
+    //public function verArticulo()
+    //{
+      //  return view('/verArticulo');
+    //}
+    public function condicionesServicio()
+    {
+        return view('/condicionesServicio');
+    }
+    public function politicasDevolucion()
+    {
+        return view('/politicasDevolucion');
     }
     public function login()
     {
         return view('/login');
     }
-
     public function guardarClientes(Request $datos)
     {
     	$cliente=new Cliente();
