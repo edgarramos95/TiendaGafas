@@ -43,11 +43,12 @@
             <li><a href="{{url('/consultarCategorias')}}">Consultar Categoria</a></li>
             <li><a href="{{url('/admin')}}">Consultar Articulo</a></li>
             <li><a href="{{url('/admin')}}">Consultar Imagen</a></li>
+
           
           </ul>
         </li>
         <li>
-          <a href="{{url('/inicio')}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Salir <span class="caret"></span></a>
+          <a class="navbar-brand" href="{{url('/inicio')}}">Salir</a>
         </li>
       </ul>
       

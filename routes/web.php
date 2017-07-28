@@ -68,6 +68,7 @@ Route::get('/condicionesServicio','proyectoController@condicionesServicio');
 Route::get('/politicasDevolucion','proyectoController@politicasDevolucion');
 //Route::get('/verArticulo','proyectoController@verArticulo');
 Route::get('/login','proyectoController@login');
+Route::get('/master_admin','proyectoController@master_admin');
 
 Route::post('/guardarClientes','proyectoController@guardarClientes');
 
