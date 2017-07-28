@@ -229,23 +229,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <div class="col_1_of_f_2 span_1_of_f_2">
 				    <h3>INFORMACIÓN</h3>
 						<ul class="f-list1">
-						    <li><a href="#">Duis autem vel eum iriure </a></li>
-				            <li><a href="#">anteposuerit litterarum formas </a></li>
-				            <li><a href="#">Tduis dolore te feugait nulla</a></li>
-				             <li><a href="#">Duis autem vel eum iriure </a></li>
-				            <li><a href="#">anteposuerit litterarum formas </a></li>
-				            <li><a href="#">Tduis dolore te feugait nulla</a></li>
+							<li><a href="{{url('/misionVision')}}">Un poco sobre nosotros</a></li>
+						    <li><a href="{{url('/inicio')}}">Existen diferentes tipos de gafas.</a></li>
+				            <li><a href="{{url('/gafasMujeres')}}">Gafas para mujeres</a></li>
+				            <li><a href="{{url('/gafasHombres')}}">Gafas para hombres</a></li>
+				            <li><a href="{{url('/enviarMensaje')}}">Haga click aquí para comunicarse con nosotros</a></li>
 			         	</ul>
  				 </div>
 				 <div class="col_1_of_f_2 span_1_of_f_2">
 				   <h3>CONTÁCTENOS</h3>
 						<div class="company_address">
-					                <p>500 Lorem Ipsum Dolor Sit,</p>
-							   		<p>22-56-2-9 Sit Amet, Lorem,</p>
-							   		<p>USA</p>
-					   		<p>Phone:(00) 222 666 444</p>
-					   		<p>Fax: (000) 000 00 00 0</p>
-					 	 	<p>Email: <span>mail[at]leoshop.com</span></p>
+					                <p>Una calle Sansome, México, CP 94104</p>
+							   		<p>Colonia Álvaro Obregón</p>
+							   		<p>MÉXICO</p>
+					   		<p>Teléfono:(00) 222 666 444</p>
+					 	 	<p>Correo: <span>support@Lunettes.com</span></p>
 					   		
 					   </div>
 					   <div class="social-media">
