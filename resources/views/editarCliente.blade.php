@@ -4,8 +4,8 @@
 <form action="{{url('/actualizarCliente')}}/{{$cliente->id}}" method="POST">
 <input id="token" type="hidden" name="_token" value="{{ csrf_token() }}">
 	<div class="form-group">
-        <label for="nombre">Nombre:</label>
-        <input type="text" class="form-control" name="nombre" maxlength="50" required>
+        <label for="nombre">Nombres:</label>
+        <input type="text" class="form-control" name="nombres" maxlength="50" required>
     </div>
     <div class="form-group">
         <label for="apellidos">Apellidos:</label>
@@ -23,11 +23,10 @@
         <label for="domicilio">Domicilio:</label>
         <input type="text" class="form-control" name="domicilio" maxlength="500" required>
     </div>
-    <div>
+    <div class="form-group">
         <label for="estado">Estado:</label>
-        <select name="estado" onchange="change_country(this.value)" class="frm-field required">
-        <option value="null">Selecciona una opción</option>         
-        <option value="null">Selecciona una opción</option>         
+        <select name="estado" onchange="change_country(this.value)" class="form-control">
+            <option value="null">Selecciona una opción</option>         
         	<option value="Aguascalientes">Aguascalientes</option>
         	<option value="Baja California">Baja California</option>
         	<option value="Baja California Sur">Baja California Sur</option>
@@ -68,8 +67,8 @@
     </div>
     <div class="form-group">
         <label for="telefono">Numero de Telefono:</label>
-        <br>
-        <input type="text" value="" maxlength="10" class="number">                  
+        
+        <input type="text" class="form-control" name="telefono" maxlength="10" required>
     </div>
     <div>
 		<button type="submit" class="btn btn-primary">Actualizar</button>
