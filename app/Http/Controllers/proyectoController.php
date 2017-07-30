@@ -8,7 +8,7 @@ use App\Administrador;
 use App\Categoria;
 use App\Articulo;
 use App\Imagen;
-
+use DB;
 use App\Http\Controllers\Controller;
 
 class proyectoController extends Controller
@@ -111,11 +111,11 @@ class proyectoController extends Controller
     public function consultarArt()
     {
         $articulos=DB::table('articulo')
-            ->join('categoria', 'articulos.id_categoria', '=', 'categoria.id')
+            ->join('categoria', 'articulo.id_categoria', '=', 'categoria.id')
             ->select('articulo.*','categoria.descripcion')
             ->get();
 
-        return view('consultarArticulos', compact('articulo'));
+        return view('consultarArticulos', compact('articulos'));
     }
 
     public function eliminarCli($id)
@@ -176,7 +176,7 @@ class proyectoController extends Controller
             ->first();
         $categorias=Categoria::all();
 
-        return view('editarArticulo',compact('articulo','categoria'));
+        return view('editarArticulo',compact('articulo','categorias'));
     }
     public function actualizarCli($id, Request $datos)
     {

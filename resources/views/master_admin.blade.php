@@ -41,7 +41,7 @@
             <li><a href="{{url('/consultarClientes')}}">Consultar Cliente</a></li>
             <li><a href="{{url('/consultarAdministradores')}}">Consultar Administrador</a></li>
             <li><a href="{{url('/consultarCategorias')}}">Consultar Categoria</a></li>
-            <li><a href="{{url('/admin')}}">Consultar Articulo</a></li>
+            <li><a href="{{url('/consultarArticulos')}}">Consultar Articulo</a></li>
             <li><a href="{{url('/admin')}}">Consultar Imagen</a></li>
 
           

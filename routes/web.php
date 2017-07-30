@@ -46,7 +46,7 @@ Route::get('/eliminarArticulo/{id}','proyectoController@eliminarArt');
 Route::get('/editarCliente/{id}','proyectoController@editarCli');
 Route::get('/editarAdministrador/{id}','proyectoController@editarAdmin');
 Route::get('/editarCategoria/{id}','proyectoController@editarCat');
-Route::get('/editarArticulo{id}','proyectoController@editarArt');
+Route::get('/editarArticulo/{id}','proyectoController@editarArt');
 
 
 Route::post('/actualizarCliente/{id}','proyectoController@actualizarCli');

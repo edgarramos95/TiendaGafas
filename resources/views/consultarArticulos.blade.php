@@ -14,13 +14,13 @@
 			</tr>
 	</thead>
 	<tbody>
-		@foreach($articulos as $ar)
+		@foreach($articulos as $a)
 		<tr>
 			<td>{{$a->id}}</td>
 			<td>{{$a->precio}}</td>
 			<td>{{$a->descripcion}}</td>
 			<td>{{$a->costo}}</td>
-			<td>{{$a->categoria}}</td>
+			<td>{{$a->id_categoria}}</td>
 			<td>
 				<a href="{{url('/editarArticulo')}}/{{$a->id}}" class="btn btn-xs btn-primary">
 					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
